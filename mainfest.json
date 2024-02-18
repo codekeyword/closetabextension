@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Close Tabs by Domain",
+  "version": "1.0",
+  "description": "Close all tabs with the same domain as the active tab",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
